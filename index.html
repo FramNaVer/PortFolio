@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio | Tanadon</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['HTML', 10],
+                ['CSS', 3],
+                ['JAVASCRIP', 2],
+                ['PYTHON', 2],
+                ['JAVA', 7]
+            ]);
+
+            var options = {
+                title: 'My skill',
+                fontFamily: 'Poppins',
+                is3D: true,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work', 12],
+                ['Eat', 2],
+                ['playgame', 2],
+                ['Watch TV', 2],
+                ['Sleep', 6]
+            ]);
+
+            var options = {
+                title: 'My Daily Activities'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="content-menu">
+            <h2>MY Website</h2>
+            <ul id="list">
+                <li><a class="text-info-a" href="#">about</a></li>
+                <li><a class="text-info-a" href="#">contact</a></li>
+                <li><a class="text-info-a" href="#">home</a></li>
+                <li><a class="text-info-a" href="#">service</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="background">
+        <div class="container">
+            <div class="row mb">
+                <div class="column">
+                    <a href="https://www.facebook.com/profile.php?id=100011339156366" class="logo">Profile</a>
+                    <h1 class="header">Beginner coding</h1>
+                    <h2>Web Coding Skill</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="one-half column">
+                    <div class="links-list">
+                        <h1>Language Program</h1>
+                        <ul>
+                            <li>
+                                <a target="_blank" href="#">HTML5</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">STYLE CSS</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">JAVASCRIPT</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">PYTHON</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">JAVA</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">C++</a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#">PHP</a>
+                                <span></span></a>
+                                <span></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="one-half column">
+                    <div class="links-list">
+                        <h1>Github Repositories and Desing</h1>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/AsmrProg-YT/100-days-of-javascript" target="_blank">100 Days
+                                    Of JavaScript
+                                    <span>NEW</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.figma.com/file/0uubMgPLSOn04I3EEiM6HE/Disige-Website_6504101340?type=design&node-id=0%3A1&mode=design&t=1WIHk7rLCbwanlTw-1"
+                                    target="_blank">
+                                    Dashboard
+                                    Designs figma
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://mywebsitemarket-learning.onrender.com" target="_blank">Website market
+                                    Design
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/FramNaVer/my-website-market.git" target="_blank">CSS&HTML In
+                                    website
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AsmrProg-YT/100-days-of-javascript/tree/master/Day%20%2345%20-%20Particles%20Portfolio"
+                                    target="_blank">Credit Website
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=kE6EnyHo2A8&t=446s" target="_blank">Youtube
+                                    website credit
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AsmrProg-YT/css-cards" target="_blank">CSS Cards
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="footer">
+                <p>
+                    This website to
+                    <a href="https://Youtube.com/@AsmrProg">Education</a> Project.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- paragraph private -->
+    <div class="content-graph">
+        <div id="piechart_3d" style="width: 700px; height: 450px;"></div>
+        <div id="piechart" style="width: 700px; height: 450px;"></div>
+    </div>
+
+
+
+    <script src="paragraph.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
